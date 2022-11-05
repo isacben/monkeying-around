@@ -35,3 +35,6 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [ ] Cover & instructions
     - [ ] Game Over
     - [ ] Score
+- [ ] Sound
+    - [ ] Create FX with https://github.com/KilledByAPixel/ZzFX
+    - [ ] (Optional) Compose music
