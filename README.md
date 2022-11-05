@@ -4,15 +4,17 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 
 ### TODO List
 
+- [x] Initialize the repository and project 
 - [ ] Create world (tile map?)
-    - [ ] POC
+    - [x] POC
     - [ ] Longer journey
     - [ ] Add the challanges
     - [ ] Draw plarforms
+    - [ ] Create full journey
 - [ ] Create the monkey:
-    - [ ] Gravity
-    - [ ] Left and right movement
-    - [ ] Collision
+    - [x] Gravity
+    - [x] Left and right movement
+    - [x] Collision
     - [ ] Draw character
     - [ ] Idle animation
     - [ ] Walk animation
@@ -25,11 +27,11 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [ ] Grab lunch box counter
     - [ ] Draw lunch box
 - [ ] Moving platforms
-    - Animation tween
+    - [ ] Animation tween
 - [ ] Wooden boxes
-    - Collision detection
-    - Gravity
-    - Draw box
+    - [ ] Collision detection
+    - [ ] Gravity
+    - [ ] Draw box
 - [ ] Win animation: character goes down with the food and meets other monkeys
 - [ ] HUD
     - [ ] Cover & instructions
@@ -49,6 +51,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 #### Day 1 - Nov 5th, 2022
 
 1. Defined the concept and created todo list for the game.
-2. Created and initialized GitHub repository
-3. Created the Godot project and added it to the repository
-
+2. Created and initialized GitHub repository.
+3. Created the Godot project and added it to the repository.
+4. Created a POC tile map with collisions.
+5. Create the player with a white square, with collision, gravity (falling with a parachute) and left & right movement.
