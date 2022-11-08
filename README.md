@@ -72,3 +72,5 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 #### Day 4 - Nov 8th, 2022
 
 1. Added a camera to follow the player
+2. Added more structure drawings
+3. Reorganized the peoject files
