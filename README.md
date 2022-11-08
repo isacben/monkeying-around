@@ -21,7 +21,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [ ] Walk animation
     - [ ] Falling animation with parachute
     - [ ] Put the character back where he fell down
-- [ ] Camera
+- [x] Camera
 - [ ] Select color pallet
 - [ ] Lunch box:
     - [ ] Collision detection
@@ -67,3 +67,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 1. Fixed moving platforms (the solution was to make sure the (base) platform was a KinematicBody2D instead of a Node2D with a KinematicBody2D inside.
 2. Drew the main character and tested different sizes
 3. Enhanced player movement: added acceleration and friction to stop
+
+#### Day 4 - Nov 8th, 2022
+
+1. Added a camera to follow the player
