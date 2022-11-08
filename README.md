@@ -22,13 +22,14 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [ ] Falling animation with parachute
     - [ ] Put the character back where he fell down
 - [x] Camera
-- [ ] Select color pallet
+- [x] Select color pallet: https://lospec.com/palette-list/rustic-rainbow
 - [ ] Lunch box:
     - [ ] Collision detection
     - [ ] Grab lunch box counter
     - [ ] Draw lunch box
 - [ ] Moving platforms
     - [x] Animation tween
+    - [ ] Add the platforms design in Godot
 - [ ] Wooden boxes
     - [ ] Collision detection
     - [ ] Gravity
