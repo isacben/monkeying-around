@@ -11,3 +11,6 @@ export_presets.cfg
 .mono/
 *.import
 data_*/
+
+# Other ignores
+.DS_Store
