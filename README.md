@@ -24,8 +24,9 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 - [x] Camera
 - [x] Select color pallet: https://lospec.com/palette-list/rustic-rainbow
 - [ ] Lunch box:
-    - [ ] Collision detection
-    - [ ] Grab lunch box counter
+    - [x] Cllision detection
+    - [x] Grab lunch box counter
+    - [ ] Make lunch box disapear
     - [ ] Draw lunch box
 - [ ] Moving platforms
     - [x] Animation tween
@@ -36,9 +37,10 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [ ] Draw box
 - [ ] Win animation: character goes down with the food and meets other monkeys
 - [ ] HUD
+    - [x] Added pixel art font
     - [ ] Cover & instructions
     - [ ] Game Over
-    - [ ] Score
+    - [x] Score
 - [ ] Sound
     - [ ] Create FX with https://github.com/KilledByAPixel/ZzFX
     - [ ] (Optional) Compose music
@@ -74,3 +76,5 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 1. Added a camera to follow the player
 2. Added more structure drawings
 3. Reorganized the peoject files
+4. Added score system with Singleton and signals
+5. Added pixel art font
