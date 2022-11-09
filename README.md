@@ -9,7 +9,6 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] POC
     - [ ] Longer journey
     - [ ] Add the challanges
-    - [ ] Draw plarforms
     - [ ] Create full journey
 - [ ] Create the monkey:
     - [x] Gravity
@@ -23,14 +22,15 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [ ] Put the character back where he fell down
 - [x] Camera
 - [x] Select color pallet: https://lospec.com/palette-list/rustic-rainbow
-- [ ] Lunch box:
+- [x] Lunch box:
     - [x] Cllision detection
     - [x] Grab lunch box counter
     - [x] Make lunch box disapear
-    - [x Draw lunch box
+    - [x] Draw lunch box
 - [ ] Moving platforms
     - [x] Animation tween
     - [ ] Add the platforms design in Godot
+    - [ ] Draw platforms
 - [ ] Wooden boxes
     - [ ] Collision detection
     - [ ] Gravity
