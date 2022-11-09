@@ -26,8 +26,8 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 - [ ] Lunch box:
     - [x] Cllision detection
     - [x] Grab lunch box counter
-    - [ ] Make lunch box disapear
-    - [ ] Draw lunch box
+    - [x] Make lunch box disapear
+    - [x Draw lunch box
 - [ ] Moving platforms
     - [x] Animation tween
     - [ ] Add the platforms design in Godot
@@ -78,3 +78,5 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 3. Reorganized the peoject files
 4. Added score system with Singleton and signals
 5. Added pixel art font
+6. Drew lunch box
+7. Implemented lunch box pick up
