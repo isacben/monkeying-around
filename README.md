@@ -80,3 +80,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 5. Added pixel art font
 6. Drew lunch box
 7. Implemented lunch box pick up
+
+#### Day 5 - Nov 9th, 2022
+
+1. Completed player sprite sheet (drwe all animations)
