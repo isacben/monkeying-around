@@ -16,8 +16,8 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Collision
     - [x] Enhance movement and gravity 
     - [x] Draw character
-    - [ ] Idle animation
-    - [ ] Walk animation
+    - [x] Idle animation
+    - [x] Walk animation
     - [ ] Falling animation with parachute
     - [ ] Put the character back where he fell down
 - [x] Camera
@@ -41,6 +41,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [ ] Cover & instructions
     - [ ] Game Over
     - [x] Score
+    - [ ] Timer
 - [ ] Sound
     - [ ] Create FX with https://github.com/KilledByAPixel/ZzFX
     - [ ] (Optional) Compose music
@@ -84,3 +85,8 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 #### Day 5 - Nov 9th, 2022
 
 1. Completed player sprite sheet (drwe all animations)
+
+#### Day 6 - Nov 10th, 2022
+
+1. Implmentend player animations in code
+

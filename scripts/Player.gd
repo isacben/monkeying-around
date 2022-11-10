@@ -18,12 +18,15 @@ func _physics_process(delta):
 	
 	if Input.is_action_pressed("ui_left"):
 		velocity.x = max(velocity.x - ACC, -MAX_SPEED)
-		$Sprite.flip_h = true
+		$AnimatedSprite.flip_h = true
+		$AnimatedSprite.animation = "running"
 	elif Input.is_action_pressed("ui_right"):
 		velocity.x = min(velocity.x + ACC, MAX_SPEED)
-		$Sprite.flip_h = false	
+		$AnimatedSprite.flip_h = false
+		$AnimatedSprite.animation = "running"
 	else:
-		velocity.x = lerp(velocity.x, 0, 0.2)
+		velocity.x = lerp(velocity.x, 0, 0.15)
+		$AnimatedSprite.animation = "idle"
 	
 	velocity.y = max(velocity.y + 25, GRAVITY)
 	velocity = move_and_slide(velocity, Vector2.UP)
