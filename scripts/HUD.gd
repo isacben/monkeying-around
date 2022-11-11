@@ -13,7 +13,7 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
-#	pass
+	#pass
 
 func update_score(value):
 	$ScoreLabel.text = "x" + str(Global.score)

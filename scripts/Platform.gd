@@ -31,6 +31,15 @@ func _draw():
 				line.position + move_to,
 				Color.lime,
 				2)
+			draw_rect(
+				Rect2(
+					line.position - Vector2(30 + 3, 0),
+					Vector2(160 + 6, 40)
+				),
+				Color.lime,
+				false,
+				2
+			)
 
 
 func set_tween(from, to):

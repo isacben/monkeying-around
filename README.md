@@ -31,6 +31,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Animation tween
     - [ ] Add the platforms design in Godot
     - [ ] Draw platforms
+    - [ ] Turn on/off platforms
 - [ ] Wooden boxes
     - [ ] Collision detection
     - [ ] Gravity
@@ -90,3 +91,8 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 
 1. Implmentend player animations in code
 
+#### Day 7 - Nov 11th, 2022
+
+1. Started designing the world.
+2. Realized I will need a stick to move platforms.
+3. Added debug lines to the platform for level design.

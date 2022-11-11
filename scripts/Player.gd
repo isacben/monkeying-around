@@ -9,8 +9,8 @@ export var MAX_SPEED : float = 250
 var velocity = Vector2.ZERO
 
 
-#func _ready():
-	#
+func _ready():
+	$AnimatedSprite.play()
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

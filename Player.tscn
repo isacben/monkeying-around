@@ -62,7 +62,6 @@ scale = Vector2( 3, 3 )
 frames = SubResource( 5 )
 animation = "running"
 frame = 2
-playing = true
 
 [node name="ColorRect" type="ColorRect" parent="."]
 visible = false
