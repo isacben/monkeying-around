@@ -5,11 +5,11 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 ### TODO List
 
 - [x] Initialize the repository and project 
-- [ ] Create world (tile map?)
+- [x] Create world (tile map?)
     - [x] POC
-    - [ ] Longer journey
-    - [ ] Add the challanges
-    - [ ] Create full journey
+    - [x] Longer journey
+    - [x] Add the challanges
+    - [x] Create full journey
 - [ ] Create the monkey:
     - [x] Gravity
     - [x] Left and right movement
@@ -29,10 +29,10 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Draw lunch box
 - [ ] Moving platforms
     - [x] Animation tween
-    - [ ] Add the platforms design in Godot
+    - [x] Add the platforms design in Godot
     - [ ] Draw platforms
-    - [ ] Turn on/off platforms
-- [ ] Wooden boxes
+    - [x] Turn on/off platforms
+- [ ] Wooden boxes (removed from scope)
     - [ ] Collision detection
     - [ ] Gravity
     - [ ] Draw box
@@ -96,3 +96,13 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 1. Started designing the world.
 2. Realized I will need a stick to move platforms.
 3. Added debug lines to the platform for level design.
+
+#### Day 8 - Nov 12th, 2022
+
+1. Extended the moving platforms to have a switch.
+2. Added functionality to choose if the platform moves automatically or with a switch from the editor.
+3. Drew a lever for the moving platforms.
+
+#### Day 9 - Nov 13th, 2022
+
+1. Completed the journy and the callanges.
