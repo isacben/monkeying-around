@@ -106,3 +106,6 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 #### Day 9 - Nov 13th, 2022
 
 1. Completed the journy and the callanges.
+2. Added signal for when the player is falling.
+3. Added global variable to reset player to the last check point.
+4. Added functionality to reset the manual moving platforms position.

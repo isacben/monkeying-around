@@ -1,5 +1,6 @@
 extends KinematicBody2D
 
+signal fell
 
 export var GRAVITY : float = 35
 export var ACC : float = 20
@@ -30,9 +31,10 @@ func _physics_process(delta):
 	
 	velocity.y = max(velocity.y + 25, GRAVITY)
 	velocity = move_and_slide(velocity, Vector2.UP)
-
+	
+	if velocity.y > 1500:
+		emit_signal("fell")
+		print("I fell...")
 	
 	if is_on_floor():
 		velocity.y = 0
-	
-	

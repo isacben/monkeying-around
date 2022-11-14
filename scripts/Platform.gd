@@ -15,9 +15,12 @@ onready var lever : Sprite = $Platform_Base/Switch/Sprite
 
 var direction_forward : bool = true
 var stopped : bool = true
+var starting_position : Vector2 = Vector2(0, 0)
 
 
 func _ready():
+	starting_position = base.position
+	
 	if ! Engine.is_editor_hint():
 		if automatic:
 			switch.queue_free()
@@ -26,6 +29,9 @@ func _ready():
 		else:
 			if (move_to.x > 0):
 				lever.flip_h = true
+			
+			var player = get_tree().get_root().find_node("Player", true, false)
+			player.connect("fell", self, "reset_platform")
 
 
 func _process(_delta):
@@ -65,14 +71,10 @@ func set_tween(from, to):
 
 
 func move_tweent():
-	stopped = false
-	
 	if direction_forward:
 		set_tween(move_from, move_to)
 	else:
 		set_tween(move_to, move_from)
-		
-	
 
 
 func _on_Tween_tween_completed(object, key):
@@ -88,3 +90,15 @@ func _on_SwitchArea_body_entered(body):
 		print("switch hit...")
 		lever.flip_h = ! lever.flip_h
 		move_tweent()
+		stopped = false
+
+
+func reset_platform():
+	tween.remove(base)
+	stopped = true
+	direction_forward = true
+	if (move_to.x > 0):
+		lever.flip_h = true
+	else:
+		lever.flip_h = false
+	base.position = starting_position
