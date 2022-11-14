@@ -34,7 +34,6 @@ func _physics_process(delta):
 	
 	if velocity.y > 1500:
 		emit_signal("fell")
-		print("I fell...")
 	
 	if is_on_floor():
 		velocity.y = 0

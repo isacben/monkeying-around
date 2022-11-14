@@ -109,3 +109,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 2. Added signal for when the player is falling.
 3. Added global variable to reset player to the last check point.
 4. Added functionality to reset the manual moving platforms position.
+
+#### Day 10 - Nov 14th, 2022
+
+1. Created functionality to add checkpoints in the world.
