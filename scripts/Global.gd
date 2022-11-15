@@ -2,6 +2,7 @@ extends Node2D
 
 
 var score = 0 setget set_score
+var bananas = 0
 var last_position = Vector2(90, 390)
 
 signal score_changed

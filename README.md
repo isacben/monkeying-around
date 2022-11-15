@@ -27,6 +27,9 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Grab lunch box counter
     - [x] Make lunch box disapear
     - [x] Draw lunch box
+- [ ] Bananas
+    - [x] Drew bananas
+    - [ ] Added bananas to the world
 - [ ] Moving platforms
     - [x] Animation tween
     - [x] Add the platforms design in Godot
@@ -42,6 +45,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [ ] Cover & instructions
     - [ ] Game Over
     - [x] Score
+    - [ ] Bananas counter
     - [ ] Timer
 - [ ] Sound
     - [ ] Create FX with https://github.com/KilledByAPixel/ZzFX
@@ -113,3 +117,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 #### Day 10 - Nov 14th, 2022
 
 1. Created functionality to add checkpoints in the world.
+2. Drew the banana.
+3. Created the banana scene.
+4. Started adding the bananas to the world.
+5. Added the bananas counter to the global script.
