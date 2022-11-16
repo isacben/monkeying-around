@@ -31,10 +31,10 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Draw lunch box
 - [x] Bananas
     - [x] Drew bananas
-- [ ] Moving platforms
+- [x] Moving platforms
     - [x] Animation tween
     - [x] Add the platforms design in Godot
-    - [ ] Draw platforms
+    - [x] Draw platforms
     - [x] Turn on/off platforms
 - [x] ~~Wooden boxes~~ (removed from scope)
     - [x] ~~Collision detection~~
