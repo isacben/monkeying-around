@@ -5,13 +5,13 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 ### TODO List
 
 - [x] Initialize the repository and project 
-- [ ] Create world (tile map?)
+- [x] Create world (tile map?)
     - [x] POC
     - [x] Longer journey
     - [x] Add the challanges
     - [x] Create full journey
-    - [ ] Add checkpoints 
-    - [ ] Add bananas 
+    - [x] Add checkpoints 
+    - [x] Add bananas 
 - [x] Create the monkey:
     - [x] Gravity
     - [x] Left and right movement
@@ -46,8 +46,9 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [ ] Cover & instructions
     - [ ] Game Over
     - [x] Score
-    - [ ] Bananas counter
+    - [x] Bananas counter
     - [ ] Timer
+    - [ ] Arrange timer, score and bananas counter on the screen
 - [ ] Sound
     - [ ] Create FX with https://github.com/KilledByAPixel/ZzFX
     - [ ] (Optional) Compose music
@@ -126,3 +127,6 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 #### Day 11 - Nov 15th, 2022
 
 1. Added bananas and checkpoints to the world.
+2. Completed the design of the journey with bananas and checkpoints.
+3. Wired the bananas counter to the HUD.
+4. Reorganized the objects in the Main scene.

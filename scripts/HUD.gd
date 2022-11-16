@@ -9,11 +9,12 @@ extends CanvasLayer
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	Global.connect("score_changed", self, "update_score")
+	Global.connect("bananas_changed", self, "update_bananas")
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-	#pass
 
 func update_score(value):
 	$ScoreLabel.text = "x" + str(Global.score)
+
+
+func update_bananas(value):
+	$BananasLabel.text = "x" + str(Global.bananas)
