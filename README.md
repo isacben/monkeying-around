@@ -5,12 +5,14 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 ### TODO List
 
 - [x] Initialize the repository and project 
-- [x] Create world (tile map?)
+- [ ] Create world (tile map?)
     - [x] POC
     - [x] Longer journey
     - [x] Add the challanges
     - [x] Create full journey
-- [ ] Create the monkey:
+    - [ ] Add checkpoints 
+    - [ ] Add bananas 
+- [x] Create the monkey:
     - [x] Gravity
     - [x] Left and right movement
     - [x] Collision
@@ -18,8 +20,8 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Draw character
     - [x] Idle animation
     - [x] Walk animation
-    - [ ] Falling animation with parachute
-    - [ ] Put the character back where he fell down
+    - ~~[ ] Falling animation with parachute~~
+    - [x] Put the character back where he fell down
 - [x] Camera
 - [x] Select color pallet: https://lospec.com/palette-list/rustic-rainbow
 - [x] Lunch box:
@@ -29,7 +31,6 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Draw lunch box
 - [ ] Bananas
     - [x] Drew bananas
-    - [ ] Added bananas to the world
 - [ ] Moving platforms
     - [x] Animation tween
     - [x] Add the platforms design in Godot
@@ -121,3 +122,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 3. Created the banana scene.
 4. Started adding the bananas to the world.
 5. Added the bananas counter to the global script.
+
+#### Day 11 - Nov 15th, 2022
+
+1. Added bananas and checkpoints to the world.
