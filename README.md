@@ -20,7 +20,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Draw character
     - [x] Idle animation
     - [x] Walk animation
-    - ~~[ ] Falling animation with parachute~~
+    - [x] ~~Falling animation with parachute~~ (removed from scope)
     - [x] Put the character back where he fell down
 - [x] Camera
 - [x] Select color pallet: https://lospec.com/palette-list/rustic-rainbow
@@ -29,17 +29,17 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Grab lunch box counter
     - [x] Make lunch box disapear
     - [x] Draw lunch box
-- [ ] Bananas
+- [x] Bananas
     - [x] Drew bananas
 - [ ] Moving platforms
     - [x] Animation tween
     - [x] Add the platforms design in Godot
     - [ ] Draw platforms
     - [x] Turn on/off platforms
-- [ ] Wooden boxes (removed from scope)
-    - [ ] Collision detection
-    - [ ] Gravity
-    - [ ] Draw box
+- [x] ~~Wooden boxes~~ (removed from scope)
+    - [x] ~~Collision detection~~
+    - [x] ~~Gravity~~
+    - [x] ~~Draw box~~
 - [ ] Win animation: character goes down with the food and meets other monkeys
 - [ ] HUD
     - [x] Added pixel art font
