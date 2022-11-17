@@ -130,3 +130,8 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 2. Completed the design of the journey with bananas and checkpoints.
 3. Wired the bananas counter to the HUD.
 4. Reorganized the objects in the Main scene.
+
+#### Day 12 - Nov 16th, 2022
+
+1. Drew the platforms and added the sprite to the game.
+2. Started working on the timer.
