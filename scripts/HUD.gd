@@ -1,9 +1,7 @@
 extends CanvasLayer
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+var seconds : int = 0
 
 
 # Called when the node enters the scene tree for the first time.
@@ -13,8 +11,13 @@ func _ready():
 
 
 func update_score(value):
-	$ScoreLabel.text = "x" + str(Global.score)
+	$ScoreLabel.text = str(Global.score) + "/10"
 
 
 func update_bananas(value):
 	$BananasLabel.text = "x" + str(Global.bananas)
+
+
+func _on_Timer_timeout():
+	seconds += 1
+	$TimerLabel.text = str(seconds)

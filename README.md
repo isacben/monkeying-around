@@ -44,10 +44,10 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 - [ ] HUD
     - [x] Added pixel art font
     - [ ] Cover & instructions
-    - [ ] Game Over
+    - [ ] Game Over (thank you screen, you never loose)
     - [x] Score
     - [x] Bananas counter
-    - [ ] Timer
+    - [x] Timer
     - [ ] Arrange timer, score and bananas counter on the screen
 - [ ] Sound
     - [ ] Create FX with https://github.com/KilledByAPixel/ZzFX
