@@ -40,9 +40,11 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] ~~Collision detection~~
     - [x] ~~Gravity~~
     - [x] ~~Draw box~~
-- [ ] Win animation: character goes down with the food and meets other monkeys
+- [x] ~~Win animation: character goes down with the food and meets other monkeys~~
+    - [x] Add a boss that gives you instructions
+    - [x] Stop the timer when you get back to the boss fo finish game
 - [ ] HUD
-    - [x] Added pixel art font
+    - [x] Add pixel art font
     - [ ] Cover & instructions
     - [ ] Game Over (thank you screen, you never loose)
     - [x] Score
@@ -144,3 +146,10 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 1. Finished the world.
 2. Prepared the place for the intro and outro of the game (talking to a monkey).
 3. Finished arranging the score, timer and bananas counter.
+4. Added a boss that gives you instructions.
+
+#### Day 15 - Nov 19th, 2022
+
+1. Finished the boss that gives you instructions.
+2. Added a signal to finish the game.
+
