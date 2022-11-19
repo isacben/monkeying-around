@@ -48,7 +48,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Score
     - [x] Bananas counter
     - [x] Timer
-    - [ ] Arrange timer, score and bananas counter on the screen
+    - [x] Arrange timer, score and bananas counter on the screen
 - [ ] Sound
     - [ ] Create FX with https://github.com/KilledByAPixel/ZzFX
     - [ ] (Optional) Compose music
@@ -134,4 +134,13 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 #### Day 12 - Nov 16th, 2022
 
 1. Drew the platforms and added the sprite to the game.
-2. Started working on the timer.
+
+#### Day 13 - Nov 17th, 2022
+
+1.  Added the timer.
+
+#### Day 14 - Nov 18th, 2022
+
+1. Finished the world.
+2. Prepared the place for the intro and outro of the game (talking to a monkey).
+3. Finished arranging the score, timer and bananas counter.
