@@ -45,12 +45,13 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Stop the timer when you get back to the boss fo finish game
 - [ ] HUD
     - [x] Add pixel art font
-    - [ ] Cover & instructions
-    - [ ] Game Over (thank you screen, you never loose)
+    - [x] Cover & instructions
+    - [x] Game Over (thank you screen, you never loose)
     - [x] Score
     - [x] Bananas counter
     - [x] Timer
     - [x] Arrange timer, score and bananas counter on the screen
+    - []  Reset game after the player finishes
 - [ ] Sound
     - [ ] Create FX with https://github.com/KilledByAPixel/ZzFX
     - [ ] (Optional) Compose music
@@ -153,3 +154,12 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 1. Finished the boss that gives you instructions.
 2. Added a signal to finish the game.
 
+#### Day 16 - Nov 22nd, 2022
+
+1. Worked more on the HUD scene.
+2. Added new_game and game_over signals.
+3. Started working on a pixelated transition shader for the HUD.
+
+#### Day 17 - Nov 23rd, 2022
+
+1. Finished the pixelated transition shader.
