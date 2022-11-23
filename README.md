@@ -163,3 +163,5 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 #### Day 17 - Nov 23rd, 2022
 
 1. Finished the pixelated transition shader.
+2. Added a re spawner.
+3. Added bananas to the re spawner for when the game is restarted.

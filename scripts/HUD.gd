@@ -54,6 +54,7 @@ func _on_PlayTimer_timeout():
 func _on_StartButton_pressed():
 	#$GUI.hide()
 	seconds = 0
+	Global.bananas = 0
 	$TimerLabel.text = "0"
 	$GUI/Message.hide()
 	$GUI/StartButton.hide()

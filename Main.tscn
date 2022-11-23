@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://img/structure.png" type="Texture" id=1]
 [ext_resource path="res://Player.tscn" type="PackedScene" id=2]
@@ -9,8 +9,9 @@
 [ext_resource path="res://HUD.tscn" type="PackedScene" id=7]
 [ext_resource path="res://scripts/Main.gd" type="Script" id=8]
 [ext_resource path="res://Checkpoint.tscn" type="PackedScene" id=9]
-[ext_resource path="res://Banana.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Bananas.tscn" type="PackedScene" id=10]
 [ext_resource path="res://Boss.tscn" type="PackedScene" id=11]
+[ext_resource path="res://scripts/Spawner.gd" type="Script" id=12]
 
 [sub_resource type="ConvexPolygonShape2D" id=3]
 points = PoolVector2Array( 60, 60, 0, 60, 0, 0, 60, 0 )
@@ -96,198 +97,6 @@ collision_layer = 3
 current = true
 
 [node name="HUD" parent="." instance=ExtResource( 7 )]
-
-[node name="Bananas" type="Node2D" parent="."]
-
-[node name="Banana1" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 865, 302 )
-
-[node name="Banana2" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 928, 390 )
-
-[node name="Banana3" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 1296, 390 )
-
-[node name="Banana4" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 1639, 211 )
-
-[node name="Banana5" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 2730, 1050 )
-
-[node name="Banana6" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 2730, 1350 )
-
-[node name="Banana7" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 1553, 1326 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana8" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 1553, 1262 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana9" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 1553, 1198 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana10" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 1620, 1006 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana11" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 1620, 942 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana12" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 1620, 878 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana13" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 1553, 686 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana14" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 1553, 622 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana15" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 1553, 558 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana16" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 4398, 518 )
-
-[node name="Banana17" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 4398, 758 )
-
-[node name="Banana18" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 4398, 998 )
-
-[node name="Banana19" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5952, 704 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana20" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5878, 576 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana21" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5953, 448 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana22" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5879, 320 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana23" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5952, 191 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana24" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5877, 64 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana25" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5912, -64 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana26" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5376, -30 )
-
-[node name="Banana27" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5312, -30 )
-
-[node name="Banana28" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5248, -30 )
-
-[node name="Banana29" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5184, -30 )
-
-[node name="Banana30" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5120, -30 )
-
-[node name="Banana31" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 5056, -30 )
-
-[node name="Banana32" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 4992, -30 )
-
-[node name="Banana33" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 4928, -30 )
-
-[node name="Banana34" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 4864, -30 )
-
-[node name="Banana35" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 4800, -30 )
-
-[node name="Banana36" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 4032, -30 )
-
-[node name="Banana37" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 3968, -30 )
-
-[node name="Banana38" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 3904, -30 )
-
-[node name="Banana39" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 3840, -30 )
-
-[node name="Banana40" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 3776, -30 )
-
-[node name="Banana41" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 3712, -30 )
-
-[node name="Banana42" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 3648, -30 )
-
-[node name="Banana43" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 3584, -30 )
-
-[node name="Banana44" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 3520, -30 )
-
-[node name="Banana45" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 3456, -30 )
-
-[node name="Banana46" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( 2850, 870 )
-
-[node name="Banana47" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( -214, 930 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana48" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( -214, 801 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana49" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( -97, 545 )
-collision_layer = 2
-collision_mask = 2
-
-[node name="Banana50" parent="Bananas" instance=ExtResource( 10 )]
-position = Vector2( -210, 458 )
-collision_layer = 2
-collision_mask = 2
 
 [node name="Checkpoints" type="Node2D" parent="."]
 
@@ -427,7 +236,7 @@ move_to = Vector2( 0, 400 )
 [node name="LunchBoxes" type="Node2D" parent="."]
 
 [node name="LunchBox1" parent="LunchBoxes" instance=ExtResource( 6 )]
-position = Vector2( -327, 1286 )
+position = Vector2( -372, 210 )
 
 [node name="LunchBox2" parent="LunchBoxes" instance=ExtResource( 6 )]
 position = Vector2( 480, 90 )
@@ -455,6 +264,11 @@ position = Vector2( 5728, -30 )
 
 [node name="LunchBox10" parent="LunchBoxes" instance=ExtResource( 6 )]
 position = Vector2( 2713, -30 )
+
+[node name="Spawner" type="Node2D" parent="."]
+script = ExtResource( 12 )
+
+[node name="Bananas" parent="Spawner" instance=ExtResource( 10 )]
 
 [connection signal="fell" from="Player" to="." method="_on_Player_fell"]
 [connection signal="game_ended" from="HUD" to="." method="_on_game_ended"]

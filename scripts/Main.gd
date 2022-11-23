@@ -16,6 +16,8 @@ func _ready():
 #	pass
 
 func new_game():
+	$Spawner.destroy()
+	$Spawner.respawn()
 	$Player.DISABLED = false
 
 
