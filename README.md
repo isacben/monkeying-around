@@ -2,6 +2,10 @@
 
 It is lunch time in the construction site. Your mission is to find all the lunch boxes for your colleagues and bring them down.
 
+Monkeying Around is my submission for the GitHub Game Off 2022 game jam.
+
+![Monkeying Around screenshot](screenshot.png?raw=true "Monkeying Around")
+
 ### TODO List
 
 - [x] Initialize the repository and project 
