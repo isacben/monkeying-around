@@ -1,7 +1,7 @@
 extends Node2D
 
 
-var score = 9 setget set_score
+var score = 0 setget set_score
 var bananas = 0 setget set_bananas
 var last_position = Vector2(-415, 1290)
 

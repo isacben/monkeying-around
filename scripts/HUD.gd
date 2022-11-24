@@ -34,7 +34,7 @@ func show_game_over():
 	emit_signal("game_ended")
 	
 	# Make a one-shot timer and wait for it to finish.
-	yield(get_tree().create_timer(1), "timeout")
+	yield(get_tree().create_timer(1.5), "timeout")
 	$GUI/Background/AnimationPlayer.play_backwards("pixelate")
 	yield(get_tree().create_timer(0.8), "timeout")
 	
@@ -55,6 +55,7 @@ func _on_StartButton_pressed():
 	#$GUI.hide()
 	seconds = 0
 	Global.bananas = 0
+	Global.score = 0
 	$TimerLabel.text = "0"
 	$GUI/Message.hide()
 	$GUI/StartButton.hide()

@@ -3,18 +3,21 @@ extends Node2D
 signal game_over
 
 func _ready():
-	$LunchBoxBubble.visible = false
-	$LunchBoxBubble/Message.visible = false
+	$LunchBoxBubble.hide()
+	$LunchBoxBubble/Message.hide()
 
 
 func _on_Area2D_body_entered(body):
 	if Global.score == 10:
-		$LunchBoxBubble/LunchBox.visible = false
-		$LunchBoxBubble/Message.visible = true
+		$LunchBoxBubble/LunchBox.hide()
+		$LunchBoxBubble/Message.show()
 		emit_signal("game_over")
+	else:
+		$LunchBoxBubble/LunchBox.show()
+		$LunchBoxBubble/Message.hide()
 	
-	$LunchBoxBubble.visible = true
+	$LunchBoxBubble.show()
 
 
 func _on_Area2D_body_exited(body):
-	$LunchBoxBubble.visible = false
+	$LunchBoxBubble.hide()

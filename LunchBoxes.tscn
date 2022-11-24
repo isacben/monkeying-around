@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://LunchBox.tscn" type="PackedScene" id=2]
+
+[node name="LunchBoxes" type="Node2D"]
+
+[node name="LunchBox1" parent="." instance=ExtResource( 2 )]
+position = Vector2( -372, 210 )
+
+[node name="LunchBox2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 480, 90 )
+
+[node name="LunchBox3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2490, 570 )
+
+[node name="LunchBox4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1474, 390 )
+
+[node name="LunchBox5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2845, 1050 )
+
+[node name="LunchBox6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 4666, 450 )
+
+[node name="LunchBox7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 5311, 1314 )
+
+[node name="LunchBox8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 5675, 1770 )
+
+[node name="LunchBox9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 5728, -30 )
+
+[node name="LunchBox10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2841, -30 )

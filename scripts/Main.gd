@@ -18,6 +18,7 @@ func _ready():
 func new_game():
 	$Spawner.destroy()
 	$Spawner.respawn()
+	$Player.position = Vector2(-415, 1290)
 	$Player.DISABLED = false
 
 

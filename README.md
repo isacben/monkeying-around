@@ -43,7 +43,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 - [x] ~~Win animation: character goes down with the food and meets other monkeys~~
     - [x] Add a boss that gives you instructions
     - [x] Stop the timer when you get back to the boss fo finish game
-- [ ] HUD
+- [x] HUD
     - [x] Add pixel art font
     - [x] Cover & instructions
     - [x] Game Over (thank you screen, you never loose)
@@ -51,7 +51,7 @@ It is lunch time in the construction site. Your mission is to find all the lunch
     - [x] Bananas counter
     - [x] Timer
     - [x] Arrange timer, score and bananas counter on the screen
-    - []  Reset game after the player finishes
+    - [x] Reset game after the player finishes
 - [ ] Sound
     - [ ] Create FX with https://github.com/KilledByAPixel/ZzFX
     - [ ] (Optional) Compose music
@@ -164,4 +164,10 @@ It is lunch time in the construction site. Your mission is to find all the lunch
 
 1. Finished the pixelated transition shader.
 2. Added a re spawner.
-3. Added bananas to the re spawner for when the game is restarted.
+3. Added bananas to the re-spawner for when the game is restarted.
+4. Added lunch boxes to the re-spawner for when the game is restarted.
+
+#### Day 18 - Nov 24rd, 2022
+
+1. Completed a minimum HUD (might add some pictures)
+2. Completed the way to restart the game.
