@@ -87,7 +87,6 @@ func _on_Tween_tween_completed(object, key):
 
 func _on_SwitchArea_body_entered(body):
 	if stopped:
-		print("switch hit...")
 		lever.flip_h = ! lever.flip_h
 		move_tweent()
 		stopped = false
