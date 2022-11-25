@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://assets/pixel-font.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://scripts/HUD.gd" type="Script" id=2]
@@ -60,8 +60,12 @@ size = 96
 extra_spacing_bottom = 25
 font_data = ExtResource( 1 )
 
+[sub_resource type="DynamicFont" id=16]
+size = 32
+font_data = ExtResource( 1 )
+
 [sub_resource type="DynamicFont" id=3]
-size = 64
+size = 48
 font_data = ExtResource( 1 )
 
 [sub_resource type="StyleBoxEmpty" id=9]
@@ -71,6 +75,32 @@ font_data = ExtResource( 1 )
 [sub_resource type="StyleBoxEmpty" id=11]
 
 [sub_resource type="StyleBoxEmpty" id=4]
+
+[sub_resource type="InputEventAction" id=12]
+action = "start_game"
+
+[sub_resource type="ShortCut" id=13]
+shortcut = SubResource( 12 )
+
+[sub_resource type="Animation" id=14]
+resource_name = "Blink"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:custom_colors/font_color")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.431373, 0.615686, 0.556863, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=15]
+resource_name = "RESET"
+loop = true
 
 [node name="HUD" type="CanvasLayer"]
 script = ExtResource( 2 )
@@ -149,23 +179,39 @@ Around"
 align = 1
 autowrap = true
 
+[node name="Instructions" type="Label" parent="GUI"]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_top = 447.0
+margin_right = 800.0
+margin_bottom = 470.0
+custom_fonts/font = SubResource( 16 )
+text = "'Left' & 'right' to move."
+align = 1
+
 [node name="StartButton" type="Button" parent="GUI"]
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = 300.0
-margin_top = 304.0
-margin_right = 500.0
-margin_bottom = 384.0
+margin_left = 224.0
+margin_top = 324.0
+margin_right = 576.0
+margin_bottom = 344.0
 custom_colors/font_color = Color( 1, 1, 1, 1 )
-custom_colors/font_color_hover = Color( 0.301961, 0.34902, 0.427451, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
 custom_fonts/font = SubResource( 3 )
 custom_styles/hover = SubResource( 9 )
 custom_styles/pressed = SubResource( 10 )
 custom_styles/focus = SubResource( 11 )
 custom_styles/normal = SubResource( 4 )
-text = "Start"
+shortcut = SubResource( 13 )
+text = "PRESS ENTER"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="GUI/StartButton"]
+anims/Blink = SubResource( 14 )
+anims/RESET = SubResource( 15 )
 
 [connection signal="timeout" from="PlayTimer" to="." method="_on_PlayTimer_timeout"]
 [connection signal="pressed" from="GUI/StartButton" to="." method="_on_StartButton_pressed"]

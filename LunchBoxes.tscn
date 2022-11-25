@@ -20,7 +20,7 @@ position = Vector2( 1474, 390 )
 position = Vector2( 2845, 1050 )
 
 [node name="LunchBox6" parent="." instance=ExtResource( 2 )]
-position = Vector2( 4666, 450 )
+position = Vector2( 4678, 450 )
 
 [node name="LunchBox7" parent="." instance=ExtResource( 2 )]
 position = Vector2( 5311, 1314 )

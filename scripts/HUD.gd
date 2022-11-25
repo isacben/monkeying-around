@@ -14,6 +14,7 @@ func _ready():
 	Global.connect("bananas_changed", self, "update_bananas")
 	var boss = get_tree().get_root().find_node("Boss", true, false)
 	boss.connect("game_over", self, "show_game_over")
+	$GUI/StartButton/AnimationPlayer.play("Blink")
 
 
 func update_score(value):
@@ -43,7 +44,9 @@ func show_game_over():
 	yield($MessageTimer, "timeout")
 	
 	$GUI/StartButton.show()
+	$GUI/StartButton/AnimationPlayer.play("Blink")
 	$GUI/Message.text = "Monkeying\nAround"
+	$GUI/Instructions.show()
 
 
 func _on_PlayTimer_timeout():
@@ -55,9 +58,11 @@ func _on_StartButton_pressed():
 	#$GUI.hide()
 	seconds = 0
 	Global.bananas = 0
-	Global.score = 0
+	Global.score = 10
 	$TimerLabel.text = "0"
 	$GUI/Message.hide()
+	$GUI/Instructions.hide()
+	$GUI/StartButton/AnimationPlayer.stop()
 	$GUI/StartButton.hide()
 	emit_signal("start_game")
 	$GUI/Background/AnimationPlayer.play("pixelate")

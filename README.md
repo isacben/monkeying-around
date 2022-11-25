@@ -171,7 +171,12 @@ Monkeying Around is my submission for the [GitHub Game Off 2022 game jam](https:
 3. Added bananas to the re-spawner for when the game is restarted.
 4. Added lunch boxes to the re-spawner for when the game is restarted.
 
-#### Day 18 - Nov 24rd, 2022
+#### Day 18 - Nov 24th, 2022
 
 1. Completed a minimum HUD (might add some pictures)
 2. Completed the way to restart the game.
+
+#### Day 19 - Nov 25th, 2022
+
+1. Update tilemap to make challanges easier.
+2. Added shortcuts to the HUD.
