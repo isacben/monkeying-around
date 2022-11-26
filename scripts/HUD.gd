@@ -46,6 +46,8 @@ func show_game_over():
 	$GUI/StartButton.show()
 	$GUI/StartButton/AnimationPlayer.play("Blink")
 	$GUI/Message.text = "Monkeying\nAround"
+	$GUI/Stats.text = str(seconds) + " seconds | " + str(Global.bananas) + " bananas"
+	$GUI/Stats.show()
 	$GUI/Instructions.show()
 
 
@@ -62,6 +64,7 @@ func _on_StartButton_pressed():
 	$TimerLabel.text = "0"
 	$GUI/Message.hide()
 	$GUI/Instructions.hide()
+	$GUI/Stats.hide()
 	$GUI/StartButton/AnimationPlayer.stop()
 	$GUI/StartButton.hide()
 	emit_signal("start_game")
