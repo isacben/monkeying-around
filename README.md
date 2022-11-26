@@ -183,3 +183,7 @@ Monkeying Around is my submission for the [GitHub Game Off 2022 game jam](https:
 2. Added shortcuts to the HUD.
 3. Created the sounds (FX).
 4. Added the sound FX to the game (banana pickup, lunch box pickup, fall and platform switch).
+
+#### Day 20 - Nov 26th, 2022
+
+1. Added game stats to the HUD.
