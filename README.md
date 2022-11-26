@@ -187,3 +187,4 @@ Monkeying Around is my submission for the [GitHub Game Off 2022 game jam](https:
 #### Day 20 - Nov 26th, 2022
 
 1. Added game stats to the HUD.
+2. Published a first version of the game on itch.io.
