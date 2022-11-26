@@ -13,6 +13,7 @@ func set_score(value):
 	score = value
 	emit_signal("score_changed", score)
 
+
 func set_bananas(value):
 	bananas = value
 	emit_signal("bananas_changed", bananas)

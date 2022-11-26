@@ -87,9 +87,18 @@ func _on_Tween_tween_completed(object, key):
 
 func _on_SwitchArea_body_entered(body):
 	if stopped:
+		var sound = AudioStreamPlayer.new()
+		var stream = load("res://sounds/switch.wav")
+		sound.set_stream(stream)
+		add_child(sound)
+		sound.play()
+		
 		lever.flip_h = ! lever.flip_h
 		move_tweent()
 		stopped = false
+		
+		yield (sound, "finished")
+		sound.queue_free()
 
 
 func reset_platform():

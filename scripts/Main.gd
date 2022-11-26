@@ -1,19 +1,10 @@
 extends Node2D
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass
+	Global.connect("bananas_changed", self, "banana_picked")
+	Global.connect("score_changed", self, "lunch_box_picked")
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
 
 func new_game():
 	$Spawner.destroy()
@@ -23,9 +14,18 @@ func new_game():
 
 
 func _on_Player_fell():
+	$FallSound.play()
 	$Player.position = Global.last_position
 
 
 func _on_game_ended():
 	$Player.DISABLED = true
-	
+
+
+func banana_picked(value):
+	$BananaSound.play()
+
+
+func lunch_box_picked(value):
+	if Global.score > 0:
+		$LunchBoxSound.play()

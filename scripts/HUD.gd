@@ -55,10 +55,10 @@ func _on_PlayTimer_timeout():
 
 
 func _on_StartButton_pressed():
-	#$GUI.hide()
 	seconds = 0
+	Global.last_position = Vector2(-415, 1290)
 	Global.bananas = 0
-	Global.score = 10
+	Global.score = 0
 	$TimerLabel.text = "0"
 	$GUI/Message.hide()
 	$GUI/Instructions.hide()

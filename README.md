@@ -57,7 +57,8 @@ Monkeying Around is my submission for the [GitHub Game Off 2022 game jam](https:
     - [x] Arrange timer, score and bananas counter on the screen
     - [x] Reset game after the player finishes
 - [ ] Sound
-    - [ ] Create FX with https://github.com/KilledByAPixel/ZzFX
+    - [x] Create FX with https://github.com/KilledByAPixel/ZzFX
+    - [x] Added FX to the game. 
     - [ ] (Optional) Compose music
 
 ### Blog
@@ -180,3 +181,5 @@ Monkeying Around is my submission for the [GitHub Game Off 2022 game jam](https:
 
 1. Update tilemap to make challanges easier.
 2. Added shortcuts to the HUD.
+3. Created the sounds (FX).
+4. Added the sound FX to the game (banana pickup, lunch box pickup, fall and platform switch).
