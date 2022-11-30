@@ -11,6 +11,7 @@ func new_game():
 	$Spawner.respawn()
 	$Player.position = Vector2(-415, 1290)
 	$Player.DISABLED = false
+	$Song.play()
 
 
 func _on_Player_fell():
@@ -20,6 +21,7 @@ func _on_Player_fell():
 
 func _on_game_ended():
 	$Player.DISABLED = true
+	$Song.stop()
 
 
 func banana_picked(value):

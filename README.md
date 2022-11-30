@@ -56,10 +56,10 @@ Monkeying Around is my submission for the [GitHub Game Off 2022 game jam](https:
     - [x] Timer
     - [x] Arrange timer, score and bananas counter on the screen
     - [x] Reset game after the player finishes
-- [ ] Sound
+- [x] Sound
     - [x] Create FX with https://github.com/KilledByAPixel/ZzFX
     - [x] Added FX to the game. 
-    - [ ] (Optional) Compose music
+    - [x] (Optional) Compose music
 
 ### Blog
 
@@ -188,3 +188,21 @@ Monkeying Around is my submission for the [GitHub Game Off 2022 game jam](https:
 
 1. Added game stats to the HUD.
 2. Published a first version of the game on itch.io.
+
+#### Day 21 - Nov 27th, 2022
+
+1. Researched about 8-bit music & music production software.
+
+
+#### Day 22 - Nov 28th, 2022
+
+1. Started composing the music: initial idea.
+2. Tested different music production programs.
+3. Tested LMMS.
+4. Selected FamiStudio, because it is free, it works on Mac, and it is easy to use: https://famistudio.org/
+
+#### Day 23 - Nov 29th, 2022
+
+1. Finished composing the music.
+2. Recorded & produced the music in FamiStudio.
+3. Added the music to the video game.
